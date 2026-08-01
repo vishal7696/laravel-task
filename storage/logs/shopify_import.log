@@ -1,0 +1,127 @@
+[2026-08-01 16:37:05] local.INFO: upload.created: 'shopify-products-csv (5) (1) (1) (1) (1) (1) (1).csv' uploaded and queued for processing. {"upload_id":1,"product_import_id":null} 
+[2026-08-01 16:37:07] local.INFO: upload.processing.started: Started processing 'shopify-products-csv (5) (1) (1) (1) (1) (1) (1).csv' {"upload_id":1,"product_import_id":null} 
+[2026-08-01 16:37:08] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=modern-desk-lamp&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:37:09] local.ERROR: shopify.api.error: Row 2 (Modern Desk Lamp) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":1,"product_import_id":1} 
+[2026-08-01 16:37:10] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=ergonomic-office-chair&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:37:10] local.ERROR: shopify.api.error: Row 3 (Ergonomic Office Chair) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":1,"product_import_id":2} 
+[2026-08-01 16:37:11] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=wireless-bluetooth-speaker&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:37:12] local.ERROR: shopify.api.error: Row 4 (Wireless Bluetooth Speaker) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":1,"product_import_id":3} 
+[2026-08-01 16:37:13] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=premium-yoga-mat&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:37:14] local.ERROR: shopify.api.error: Row 5 (Premium Yoga Mat) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":1,"product_import_id":4} 
+[2026-08-01 16:37:14] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=stainless-steel-water-bottle&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:37:15] local.ERROR: shopify.api.error: Row 6 (Stainless Steel Water Bottle) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":1,"product_import_id":5} 
+[2026-08-01 16:37:16] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=handcrafted-ceramic-mug&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:37:17] local.ERROR: shopify.api.error: Row 7 (Handcrafted Ceramic Mug) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":1,"product_import_id":6} 
+[2026-08-01 16:37:18] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=organic-cotton-t-shirt&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:37:18] local.ERROR: shopify.api.error: Row 8 (Organic Cotton T-Shirt) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":1,"product_import_id":7} 
+[2026-08-01 16:37:19] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=smart-fitness-tracker&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:37:20] local.ERROR: shopify.api.error: Row 9 (Smart Fitness Tracker) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":1,"product_import_id":8} 
+[2026-08-01 16:37:21] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=premium-coffee-beans&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:37:22] local.ERROR: shopify.api.error: Row 10 (Premium Coffee Beans) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":1,"product_import_id":9} 
+[2026-08-01 16:37:22] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=minimalist-wall-clock&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:37:23] local.ERROR: shopify.api.error: Row 11 (Minimalist Wall Clock) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":1,"product_import_id":10} 
+[2026-08-01 16:37:23] local.INFO: upload.processing.completed: Finished processing 'shopify-products-csv (5) (1) (1) (1) (1) (1) (1).csv': 0 succeeded, 10 failed. {"upload_id":1,"product_import_id":null} 
+[2026-08-01 16:37:23] local.ERROR: notification: Import 'shopify-products-csv (5) (1) (1) (1) (1) (1) (1).csv' (upload #1) finished with 10 failed row(s) out of 10.  
+[2026-08-01 16:49:58] local.INFO: upload.created: 'shopify-products-csv (5) (1) (1) (1) (1) (1) (1).csv' uploaded and queued for processing. {"upload_id":2,"product_import_id":null} 
+[2026-08-01 16:49:58] local.INFO: upload.processing.started: Started processing 'shopify-products-csv (5) (1) (1) (1) (1) (1) (1).csv' {"upload_id":2,"product_import_id":null} 
+[2026-08-01 16:49:59] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=modern-desk-lamp&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:50:00] local.ERROR: shopify.api.error: Row 2 (Modern Desk Lamp) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":2,"product_import_id":11} 
+[2026-08-01 16:50:00] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=ergonomic-office-chair&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:50:01] local.ERROR: shopify.api.error: Row 3 (Ergonomic Office Chair) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":2,"product_import_id":12} 
+[2026-08-01 16:50:02] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=wireless-bluetooth-speaker&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:50:03] local.ERROR: shopify.api.error: Row 4 (Wireless Bluetooth Speaker) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":2,"product_import_id":13} 
+[2026-08-01 16:50:04] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=premium-yoga-mat&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:50:04] local.ERROR: shopify.api.error: Row 5 (Premium Yoga Mat) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":2,"product_import_id":14} 
+[2026-08-01 16:50:05] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=stainless-steel-water-bottle&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:50:06] local.ERROR: shopify.api.error: Row 6 (Stainless Steel Water Bottle) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":2,"product_import_id":15} 
+[2026-08-01 16:50:07] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=handcrafted-ceramic-mug&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:50:08] local.ERROR: shopify.api.error: Row 7 (Handcrafted Ceramic Mug) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":2,"product_import_id":16} 
+[2026-08-01 16:50:08] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=organic-cotton-t-shirt&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:50:09] local.ERROR: shopify.api.error: Row 8 (Organic Cotton T-Shirt) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":2,"product_import_id":17} 
+[2026-08-01 16:50:10] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=smart-fitness-tracker&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:50:11] local.ERROR: shopify.api.error: Row 9 (Smart Fitness Tracker) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":2,"product_import_id":18} 
+[2026-08-01 16:50:12] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=premium-coffee-beans&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:50:12] local.ERROR: shopify.api.error: Row 10 (Premium Coffee Beans) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":2,"product_import_id":19} 
+[2026-08-01 16:50:13] local.WARNING: Shopify lookup by handle failed: Client error: `GET https://your-store.myshopify.com/admin/api/2025-01/products.json?handle=minimalist-wall-clock&limit=1` resulted in a `401 Unauthorized` response:
+{"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"}
+  
+[2026-08-01 16:50:14] local.ERROR: shopify.api.error: Row 11 (Minimalist Wall Clock) failed: Shopify REST API error: {"errors":"[API] Invalid API key or access token (unrecognized login or wrong password)"} {"upload_id":2,"product_import_id":20} 
+[2026-08-01 16:50:14] local.INFO: upload.processing.completed: Finished processing 'shopify-products-csv (5) (1) (1) (1) (1) (1) (1).csv': 0 succeeded, 10 failed. {"upload_id":2,"product_import_id":null} 
+[2026-08-01 16:50:14] local.ERROR: notification: Import 'shopify-products-csv (5) (1) (1) (1) (1) (1) (1).csv' (upload #2) finished with 10 failed row(s) out of 10.  
+[2026-08-01 16:55:40] local.INFO: upload.created: 'shopify-products-csv (5) (1) (1) (1) (1) (1) (1).csv' uploaded and queued for processing. {"upload_id":3,"product_import_id":null} 
+[2026-08-01 16:55:42] local.INFO: upload.processing.started: Started processing 'shopify-products-csv (5) (1) (1) (1) (1) (1) (1).csv' {"upload_id":3,"product_import_id":null} 
+[2026-08-01 16:55:44] local.INFO: shopify.product.updated: Row 2 (Modern Desk Lamp) updated in Shopify as product 9483331338479. {"upload_id":3,"product_import_id":21} 
+[2026-08-01 16:55:45] local.INFO: shopify.product.updated: Row 3 (Ergonomic Office Chair) updated in Shopify as product 9483331404015. {"upload_id":3,"product_import_id":22} 
+[2026-08-01 16:55:48] local.INFO: shopify.product.updated: Row 4 (Wireless Bluetooth Speaker) updated in Shopify as product 9483331436783. {"upload_id":3,"product_import_id":23} 
+[2026-08-01 16:55:50] local.INFO: shopify.product.updated: Row 5 (Premium Yoga Mat) updated in Shopify as product 9483331535087. {"upload_id":3,"product_import_id":24} 
+[2026-08-01 16:55:53] local.INFO: shopify.product.updated: Row 6 (Stainless Steel Water Bottle) updated in Shopify as product 9483331600623. {"upload_id":3,"product_import_id":25} 
+[2026-08-01 16:55:54] local.INFO: shopify.product.updated: Row 7 (Handcrafted Ceramic Mug) updated in Shopify as product 9483331666159. {"upload_id":3,"product_import_id":26} 
+[2026-08-01 16:55:57] local.INFO: shopify.product.updated: Row 8 (Organic Cotton T-Shirt) updated in Shopify as product 9483331731695. {"upload_id":3,"product_import_id":27} 
+[2026-08-01 16:55:59] local.INFO: shopify.product.updated: Row 9 (Smart Fitness Tracker) updated in Shopify as product 9483331764463. {"upload_id":3,"product_import_id":28} 
+[2026-08-01 16:56:02] local.INFO: shopify.product.updated: Row 10 (Premium Coffee Beans) updated in Shopify as product 9483331797231. {"upload_id":3,"product_import_id":29} 
+[2026-08-01 16:56:04] local.INFO: shopify.product.updated: Row 11 (Minimalist Wall Clock) updated in Shopify as product 9483331829999. {"upload_id":3,"product_import_id":30} 
+[2026-08-01 16:56:04] local.INFO: upload.processing.completed: Finished processing 'shopify-products-csv (5) (1) (1) (1) (1) (1) (1).csv': 10 succeeded, 0 failed. {"upload_id":3,"product_import_id":null} 
+[2026-08-01 16:58:09] local.INFO: upload.created: 'shopify-products-csv (5) (1) (1) (1) (1) (1) (1).csv' uploaded and queued for processing. {"upload_id":4,"product_import_id":null} 
+[2026-08-01 16:58:11] local.INFO: upload.processing.started: Started processing 'shopify-products-csv (5) (1) (1) (1) (1) (1) (1).csv' {"upload_id":4,"product_import_id":null} 
+[2026-08-01 16:58:13] local.INFO: shopify.product.updated: Row 2 (Modern Desk Lamp) updated in Shopify as product gid://shopify/Product/9483331338479. {"upload_id":4,"product_import_id":31} 
+[2026-08-01 16:58:14] local.INFO: shopify.product.updated: Row 3 (Ergonomic Office Chair) updated in Shopify as product gid://shopify/Product/9483331404015. {"upload_id":4,"product_import_id":32} 
+[2026-08-01 16:58:16] local.INFO: shopify.product.updated: Row 4 (Wireless Bluetooth Speaker) updated in Shopify as product gid://shopify/Product/9483331436783. {"upload_id":4,"product_import_id":33} 
+[2026-08-01 16:58:17] local.INFO: shopify.product.updated: Row 5 (Premium Yoga Mat) updated in Shopify as product gid://shopify/Product/9483331535087. {"upload_id":4,"product_import_id":34} 
+[2026-08-01 16:58:19] local.INFO: shopify.product.updated: Row 6 (Stainless Steel Water Bottle) updated in Shopify as product gid://shopify/Product/9483331600623. {"upload_id":4,"product_import_id":35} 
+[2026-08-01 16:58:20] local.INFO: shopify.product.updated: Row 7 (Handcrafted Ceramic Mug) updated in Shopify as product gid://shopify/Product/9483331666159. {"upload_id":4,"product_import_id":36} 
+[2026-08-01 16:58:22] local.INFO: shopify.product.updated: Row 8 (Organic Cotton T-Shirt) updated in Shopify as product gid://shopify/Product/9483331731695. {"upload_id":4,"product_import_id":37} 
+[2026-08-01 16:58:24] local.INFO: shopify.product.updated: Row 9 (Smart Fitness Tracker) updated in Shopify as product gid://shopify/Product/9483331764463. {"upload_id":4,"product_import_id":38} 
+[2026-08-01 16:58:25] local.INFO: shopify.product.updated: Row 10 (Premium Coffee Beans) updated in Shopify as product gid://shopify/Product/9483331797231. {"upload_id":4,"product_import_id":39} 
+[2026-08-01 16:58:27] local.INFO: shopify.product.updated: Row 11 (Minimalist Wall Clock) updated in Shopify as product gid://shopify/Product/9483331829999. {"upload_id":4,"product_import_id":40} 
+[2026-08-01 16:58:27] local.INFO: upload.processing.completed: Finished processing 'shopify-products-csv (5) (1) (1) (1) (1) (1) (1).csv': 10 succeeded, 0 failed. {"upload_id":4,"product_import_id":null} 
+[2026-08-01 17:01:10] local.INFO: upload.created: 'shopify-products-csv (5) (1) (1) (1) (1) (1) (1).csv' uploaded and queued for processing. {"upload_id":5,"product_import_id":null} 
+[2026-08-01 17:01:10] local.INFO: upload.processing.started: Started processing 'shopify-products-csv (5) (1) (1) (1) (1) (1) (1).csv' {"upload_id":5,"product_import_id":null} 
+[2026-08-01 17:01:13] local.INFO: shopify.product.updated: Row 2 (Modern Desk Lamp) updated in Shopify as product gid://shopify/Product/9483331338479. {"upload_id":5,"product_import_id":41} 
+[2026-08-01 17:01:15] local.INFO: shopify.product.updated: Row 3 (Ergonomic Office Chair) updated in Shopify as product gid://shopify/Product/9483331404015. {"upload_id":5,"product_import_id":42} 
+[2026-08-01 17:01:17] local.INFO: shopify.product.updated: Row 4 (Wireless Bluetooth Speaker) updated in Shopify as product gid://shopify/Product/9483331436783. {"upload_id":5,"product_import_id":43} 
+[2026-08-01 17:01:20] local.INFO: shopify.product.updated: Row 5 (Premium Yoga Mat) updated in Shopify as product gid://shopify/Product/9483331535087. {"upload_id":5,"product_import_id":44} 
+[2026-08-01 17:01:22] local.INFO: shopify.product.updated: Row 6 (Stainless Steel Water Bottle) updated in Shopify as product gid://shopify/Product/9483331600623. {"upload_id":5,"product_import_id":45} 
+[2026-08-01 17:01:25] local.INFO: shopify.product.updated: Row 7 (Handcrafted Ceramic Mug) updated in Shopify as product gid://shopify/Product/9483331666159. {"upload_id":5,"product_import_id":46} 
+[2026-08-01 17:01:27] local.INFO: shopify.product.updated: Row 8 (Organic Cotton T-Shirt) updated in Shopify as product gid://shopify/Product/9483331731695. {"upload_id":5,"product_import_id":47} 
+[2026-08-01 17:01:30] local.INFO: shopify.product.updated: Row 9 (Smart Fitness Tracker) updated in Shopify as product gid://shopify/Product/9483331764463. {"upload_id":5,"product_import_id":48} 
+[2026-08-01 17:01:32] local.INFO: shopify.product.updated: Row 10 (Premium Coffee Beans) updated in Shopify as product gid://shopify/Product/9483331797231. {"upload_id":5,"product_import_id":49} 
+[2026-08-01 17:01:34] local.INFO: shopify.product.updated: Row 11 (Minimalist Wall Clock) updated in Shopify as product gid://shopify/Product/9483331829999. {"upload_id":5,"product_import_id":50} 
+[2026-08-01 17:01:35] local.INFO: upload.processing.completed: Finished processing 'shopify-products-csv (5) (1) (1) (1) (1) (1) (1).csv': 10 succeeded, 0 failed. {"upload_id":5,"product_import_id":null} 
